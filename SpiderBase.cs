@@ -23,7 +23,7 @@ namespace SpiderFrame
                 _downloader.OnDownload -= value;
             }
         }
-        public event DownloadCompletedEventHandler DownloadCompete
+        public event DownloadCompletedEventHandler DownloadComplete
         {
             add
             {
