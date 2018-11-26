@@ -129,7 +129,7 @@
 
 * `IWaitTimer`
 
-  暂停器接口，实现这个接口来让下载器进行暂停，避免被网站阻止访问，有事件指示开始暂停和结束暂停~~（没有什么用）~~
+  暂停器接口，实现这个接口来让下载器进行暂停，避免被网站阻止访问，有事件指示开始暂停和结束暂停 ~~（没有什么用）~~  
 
   (* This timer interface allow downloader to pause in some ways. Classes that implement this interface help you prevent from being barred. It has events to tell you when the pause begin and end. ~~Very useless!~~ *)
 
