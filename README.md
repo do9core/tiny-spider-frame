@@ -198,7 +198,7 @@
   {
   	public MySpider(HttpClient client)
   		: base(client,
-  				new DefaultDownloader(client, new MyFileNameParser())),
+  				new DefaultDownloader(client, new MyFileNameParser()),
   				new MySourceParser(client),
   				new MyFolderNameParser()) { }
   				
